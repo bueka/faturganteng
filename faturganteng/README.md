@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Re Write Tutorial TEA
 
-## Getting Started
+1. Pertama Daftar :  https://gitpod.io/
+- Ambil Trial
+- Continue 10 H
+- Bind Linkedin
 
-First, run the development server:
+2. Login ke Github : https://github.com/
+- Buat Repo > Go to profil > Click your Repositories
+- Create Repositority
+- Copy link git 
+- Contoh : https://github.com/username/ninjahijau
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. Ke Gitpod : https://gitpod.io/
+- Click New Workspace
+- Input Link Git
+- Done Tungguin Sampai buka Terminal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 4 : 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📖 Input Code & Enter
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npx create-next-app@latest
 
-## Learn More
+Nanti Muncul Text : 
+What is your project named? my-app ( Ganti Nama Projectmu, Yang Rare ) 
+Would you like to use TypeScript? No / Yes ✔️
+Would you like to use ESLint? No / Yes ✔️
+Would you like to use Tailwind CSS? No / Yes ✔️
+Would you like to use src/ directory? No / Yes ✔️
+Would you like to use App Router? (recommended) No / Yes ✔️
+Would you like to customize the default import alias (@/*)? No / Yes ✔️
+What import alias would you like configured? @/*
 
-To learn more about Next.js, take a look at the following resources:
+- Cara No Ke Yes Click Tanda Panah Kanan di PC / Space di HP
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Enter
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Copy Code One by One & Enter
 
-## Deploy on Vercel
+- git add .
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/ Isi code git yang sudah kalian copy sebelumnya ( kalau kalian melihat remote already exists lanjut enter )
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Lalu paste Code : git push -u origin main
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Paste :  git add README.md akan ada tulisan  ( ratal pathspec "README.md" did not match any files ) 
+- Paste :  cd spasi (Nama Projectmu) 
+- Contoh : cd airdropfind
+- Enter
+- Paste : git add README.md
+
+- Next Step, Click Enter
+- Paste : git push -u origin main
+
+- Jika eror akan muncul popup kalian klik "Open Access Control" - - Lalu klik titik tiga di bagian Github > edit permision nya > Centang semua 
+
+- Paste Again : git push -u origin main
+
+- Paste : npm init
+- Nanti Akan ada tulisan git repository
+- Isi Link git kalian
+- Lisensi > Gausah
+- Enter 
+
+📌 Ke : npmjs.com
+- Buat Akun / Login
+- Click Profile > Edit profile > Linked Github
+- Balik Lagi ke gitpod
+ 
+- Paste : npm adduser 
+- Akan ada link login ( contohnya seperti ini https://www.npmjs.com/login?next=/login/cli/f ) 
+- Login & Input Otp
+ 
+- Paste : npm publish   
+
+Ketika Error Yang Harus Di Ubah & Dihapus di bagian Package.json
+- Scroll down > Go to package.json
+- Ada tulisan Private : True ( Kalian hapus aja semuanya ) 
+- Version 0.1.0 ubah ke 1.1.4 / 1.1.2
+- Scroll Down ada nomor 30 ada git+https://github.com/yourusername/yourproject.git 
+- hapus bagian  git+ & .git
+
+- Paste :  npm publish
+- Ke npmjs.com profil > package > ada project disitu yang ke publish
+- Done
